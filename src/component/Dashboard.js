@@ -14,7 +14,7 @@ function Dashboard() {
         <a href="#Settings">Settings</a>
         <a href="#Service">Service</a>
         <a href="#contact">Contact</a>
-        <button className="logout-btn">Logout</button>
+        <button onClick={() => window.location.href='/'} className="logout-btn">Logout</button>
       </div>
       <div className="main-content">
       <h1 className="animated-header">Welcome to the College Dashboard.</h1>
