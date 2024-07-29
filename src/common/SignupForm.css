@@ -2,41 +2,41 @@
     display: flex;
     width: 1430px;
     height: 670px;
-    background-color: #b987fa2d; /* Light Sky Blue color */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Dark shadow */
-    margin: 20px; /* Optional margin */
+    background-color: #b987fa2d;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    margin: 20px;
   }
   
   .imageSection {
-    flex: 1; /* Takes up 1/3rd of the width */
-    background-color: #f0f0f0; /* Optional background color for the image section */
+    flex: 1;
+    background-color: #f0f0f0;
   }
   
   .imageSection img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the section properly */
+    object-fit: cover; 
   }
   
   .formSection {
-    flex: 2; /* Takes up 2/3rd of the width */
+    flex: 2; 
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers the form vertically */
-    position: relative; /* Position relative for positioning the forgot password link */
+    justify-content: center;
+    position: relative;
   }
   
   h2 {
-    text-align: center; /* Center the sign-up title */
-    font-size: 2em; /* Adjust the font size as needed */
-    color: #333; /* Change the color if needed */
-    margin-bottom: 30px; /* Spacing below the title */
+    text-align: center; 
+    font-size: 2em; 
+    color: #333; 
+    margin-bottom: 30px;
   }
   
   .formGroup {
     margin-bottom: 15px;
-    padding-left: 170px; /* Adjust spacing between form groups */
+    padding-left: 170px;
   }
   
   .formGroup label {
@@ -46,26 +46,26 @@
   
   .formGroup input {
     width: 70%;
-    padding: 8px; /* Decrease the size of the input boxes */
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
   .forgotPasswordLink {
     right: 0;
-    bottom: -40px; /* Adjust position below the confirm password input */
+    bottom: -40px;
     color: #051321;
     text-decoration: none;
-    font-size: 1em; /* Adjust font size if needed */
+    font-size: 1em; 
   }
   
   .forgotPasswordLink:hover {
-    color: red; /* Change color on hover */
+    color: red; 
   }
   
   .formFooter button {
-    width: auto; /* Decrease the size of the button */
-    padding: 8px 36px; /* Adjust padding */
+    width: auto; 
+    padding: 8px 36px; 
     background-color: #007bff;
     color: white;
     border: none;
@@ -82,13 +82,13 @@
   .formFooter {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the "Existing user? Login" text */
-    margin-top: 20px; /* Add spacing from the button */
+    align-items: center;
+    margin-top: 20px;
   }
   
   .formFooter p {
     margin: -28px;
-    margin-right: 70px; /* Remove default margins */
+    margin-right: 70px;
   }
   
   .formFooter a {
@@ -104,7 +104,7 @@
   }
   
   .socialSignup {
-    margin-top: 60px; /* Space above the social signup section */
+    margin-top: 60px; 
     text-align: center;
   }
   
@@ -124,7 +124,7 @@
   
   .socialIcons {
     display: flex;
-    justify-content: center; /* Center the icons horizontally */
+    justify-content: center;
     gap: 20px; 
   }
   
@@ -133,12 +133,12 @@
   }
   
   .socialIcon {
-    width: 40px; /* Adjust size of the icons */
+    width: 40px; 
     height: 40px;
   }
   
   .socialIcons p {
-    margin: 0; /* Remove default margins from text under icons */
+    margin: 0; 
     font-size: 1em;
   }
   
