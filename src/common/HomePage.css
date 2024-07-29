@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 48, 1);
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 60px;
+  }
+  
+  .navbar {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    background-color: #555;
+  }
+  
+  .boxesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: -40px;
+  }
+  
+  .box {
+    width: 22%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 70px 0;
+  }
+  
+  .boxImage {
+    width: 120%;
+    height: 550px;
+    border-radius: 8px;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .buttonsContainer button {
+    padding: 10px 40px;
+    margin: 0 40px;
+    background-color: #049041;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -10px;
+  }
+  
+  .buttonsContainer button:hover {
+    background-color: #555;
+  }
+  
